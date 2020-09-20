@@ -51,6 +51,8 @@ class GroovyTut {
         }
         myClosure(1,2,3)
 
+        def sum = "The sum of 2 and 3 equals ${2 + 3}"
+        assert sum.toString() == 'The sum of 2 and 3 equals 5'
     }
 
 }
