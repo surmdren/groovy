@@ -153,9 +153,9 @@
 // }
 
 // split
-// class Test {
-//     static main(args) {
-//         Set mySet = [1000, 2000, 3000, 4000, 5000, 6000]
-//         println mySet.split{it> 3000}
-//     }
-// }
+class Test {
+    static main(args) {
+        Set mySet = [1000, 2000, 3000, 4000, 5000, 6000]
+        println mySet.split{it> 3000}
+    }
+}
